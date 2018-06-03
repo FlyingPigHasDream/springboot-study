@@ -6,6 +6,11 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  *
  * 1. Spring 在初始化所有bean后 判断所有ApplicationContextAware 的子类
  *  并把ApplicationContext 传进去 进行调用
+ *  Spring源码引用
+ *  AnnotationConfigApplicationContext -> AnnotationConfigApplicationContext( -> GenericApplicationContext )
+ *      -> AbstractApplicationContext -> (method)refresh(-> prepareBeanFactory())
+ *      -> beanFactory.addBeanPostProcessor(new ApplicationContextAwareProcessor(this));
+ *
  * 2. spring4.3之后构造bean构造方法需要的参数spring会自动注入进去
  * @author rainyday
  * @createTime 2018/6/3.

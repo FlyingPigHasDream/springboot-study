@@ -10,6 +10,14 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springboot-spring4</module>
+        <module>springboot-springextend</module>
+        <module>springboot-springextend1</module>
+        <module>springboot-helloworld</module>
+        <module>springboot-analyze</module>
+        <module>springboot-analyze2</module>
+        <module>springboot-starter-redis</module>
+        <module>springboot-redis</module>
+        <module>springboot-log</module>
     </modules>
 
 

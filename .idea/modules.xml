@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-analyze/springboot-analyze.iml" filepath="$PROJECT_DIR$/springboot-analyze/springboot-analyze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-analyze2/springboot-analyze2.iml" filepath="$PROJECT_DIR$/springboot-analyze2/springboot-analyze2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" filepath="$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-log/springboot-log.iml" filepath="$PROJECT_DIR$/springboot-log/springboot-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-spring4/springboot-spring4.iml" filepath="$PROJECT_DIR$/springboot-spring4/springboot-spring4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-springextend/springboot-springextend.iml" filepath="$PROJECT_DIR$/springboot-springextend/springboot-springextend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-springextend1/springboot-springextend1.iml" filepath="$PROJECT_DIR$/springboot-springextend1/springboot-springextend1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-starter-redis/springboot-starter-redis.iml" filepath="$PROJECT_DIR$/springboot-starter-redis/springboot-starter-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-study.iml" filepath="$PROJECT_DIR$/springboot-study.iml" />
     </modules>
   </component>

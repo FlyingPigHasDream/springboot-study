@@ -6,11 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-analyze" />
+        <module name="springboot-analyze2" />
+        <module name="springboot-helloworld" />
+        <module name="springboot-log" />
+        <module name="springboot-redis" />
         <module name="springboot-spring4" />
+        <module name="springboot-springextend" />
+        <module name="springboot-springextend1" />
+        <module name="springboot-starter-redis" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
+      <module name="springboot-analyze" target="1.5" />
+      <module name="springboot-analyze2" target="1.7" />
+      <module name="springboot-helloworld" target="1.8" />
+      <module name="springboot-log" target="1.5" />
+      <module name="springboot-redis" target="1.5" />
       <module name="springboot-spring4" target="1.5" />
+      <module name="springboot-springextend" target="1.5" />
+      <module name="springboot-springextend1" target="1.8" />
+      <module name="springboot-starter-redis" target="1.5" />
       <module name="springboot-study" target="1.5" />
     </bytecodeTargetLevel>
   </component>
